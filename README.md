@@ -18,7 +18,9 @@ One important point of discussion, for example, is how/where the animations
 should be defined or associated with the graph (elements).
 
 I've implemented two approaches:
-1. Define a JavaScript function that calls the API of the library (see
+1. Define a JavaScript function (see
+   [reveal-mermaid-animation-handlers.js](./reveal-mermaid-animation-handlers.js))
+   that calls the API of the library (see
    [reveal-mermaid-animation.js](./lib/reveal-mermaid-animation.js))
 2. Define a code block in a custom language. For example, after the code block
    of your graph
