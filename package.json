@@ -1,0 +1,26 @@
+{
+  "name": "reveal-md-mermaid-animation-example",
+  "version": "1.0.0",
+  "description": "Example of how to animate mermaid diagrams in reveal-md using fragments",
+  "scripts": {
+    "start": "reveal-md presentation.md --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maiermic/reveal-md-mermaid-animation-example.git"
+  },
+  "keywords": [
+    "reveal.js",
+    "reveal-md",
+    "mermaid"
+  ],
+  "author": "Michael Maier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maiermic/reveal-md-mermaid-animation-example/issues"
+  },
+  "homepage": "https://github.com/maiermic/reveal-md-mermaid-animation-example#readme",
+  "dependencies": {
+    "reveal-md": "^5.1.2"
+  }
+}
