@@ -14,7 +14,7 @@ elements. It may also be used in [reveal.js].
 My goal is to create a library that can be installed using npm.
 Therefore, I would like to collect requirements.
 Please create an issue to add your requirements and join the discussion.
-One important point of discussion, for example, is how/where the animations
+For example, one important point of discussion is, how/where the animations
 should be defined or associated with the graph (elements).
 
 I've implemented two approaches:
