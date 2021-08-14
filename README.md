@@ -22,23 +22,28 @@ I've implemented two approaches:
    [reveal-mermaid-animation-handlers.js](./reveal-mermaid-animation-handlers.js))
    that calls the API of the library (see
    [reveal-mermaid-animation.js](./lib/reveal-mermaid-animation.js))
-2. Define a code block in a custom language. For example, after the code block
-   of your graph
+2. Define a code block in a new/custom language (`mermaid-animation`),
+   which is translated in API calls by the library.
+   For example, after the code block (language `mermaid`) of your graph
    
    ```mermaid
    graph TD;
        A-->B;
    ```
     
-   you define the animation order of nodes and edges like this   
+   you define the animation (order) of nodes and edges in another
+   code block (language `mermaid`) on the same slide
     
    ```mermaid-animation
    A
    A-->B B
    ```
-    
-   Node `A` should be shown in the first step,
-   the edge `A-->B` and the node `B` in the second step.
+   
+   The line number defines, in which step a node/edge should be shown in the
+   animation (i.e. adds class `fragment` and sets attribute
+   `data-fragment-index` on the SVG element of the rendered node/edge).
+   In the example, Node `A` is shown in the first step,
+   the edge `A-->B` and the node `B` are shown in the second step.
 
 ## How to run
 ```bash
