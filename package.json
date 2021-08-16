@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Example of how to animate mermaid diagrams in reveal-md using fragments",
   "scripts": {
+    "build": "reveal-md presentation.md --static dist",
     "start": "reveal-md presentation.md --watch"
   },
   "repository": {
