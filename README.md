@@ -1,9 +1,10 @@
 # reveal-md-mermaid-animation-example
-This repository contains an example that demonstrates how to animate
+This repository contains an example that demonstrates (see [demo]) how to animate
 ([mermaid]) diagrams in ([reveal-md]) presentations using [fragments].
 The approach adds classes and data attributes to the rendered graph (SVG)
 elements. It may also be used in [reveal.js].
 
+[demo]: https://maiermic.github.io/reveal-md-mermaid-animation-example/
 [mermaid]: https://github.com/mermaid-js/mermaid
 [reveal-md]: https://github.com/webpro/reveal-md
 [fragments]: https://revealjs.com/fragments/
